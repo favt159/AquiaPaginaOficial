@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#botonone").on("click",function(){$.ajax({type:"GET",url:"costumbres-danzas.php",success:function(i){$("#content").html(i)}})}),$("#boton").on("click",function(){$.ajax({type:"GET",url:"lugares-turisticos.php",success:function(i){$("#content").html(i)}})})})
